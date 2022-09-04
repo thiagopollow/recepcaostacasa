@@ -1,0 +1,68 @@
+<style>
+ @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;600;700&display=swap');
+
+*{
+ 
+  font-family: 'DynaPuff', cursive;
+  background-color:#B0C4DE;
+ 
+}
+.fCorpo{
+	position: absolute;
+	border-radius: 10px;
+	width: 1000px;
+
+}
+h1{ text-align: center; }
+.menuhorizontal2{
+margin: 0;
+padding: 0;
+width: auto;
+height: 30px;
+}
+.menuhorizontal2 ul{
+list-style: none;
+
+}
+.menuhorizontal2 li{
+width: 80px;
+padding:0px;
+margin-right: 80px;
+position: relative;
+display: inline;
+float: left;
+border-left: #999999 thin solid;
+}
+.menuhorizontal2 li ul{
+display: none;
+padding: 0px;
+margin: 0px;
+position: absolute;
+top: 30px;
+left: 0;
+}
+.menuhorizontal2 a{
+display: block;
+text-decoration: none;
+padding: 7px;
+width: 120px;
+background-color: #FF4500;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: 400;
+color: white;
+text-align: center;
+border-radius: 5px;
+}
+.menuhorizontal2 a:hover{ background-color: #FFFF00; color: black;  }
+.menuhorizontal2 li:hover ul, li.over ul{
+display: block;
+}.menuhorizontal2 li.btnesquerdo{
+border: none;
+}
+#fframe{
+	width: 1000px;
+	height: 800px;
+}
+
+</style>
